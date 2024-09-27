@@ -50,4 +50,8 @@ public class Utente {
 				+ peso + "]";
 	}
 	
+	
+	public void IMC(int pes , float altura ) {
+		float imc = peso/(altura*altura);
+	}
 }
