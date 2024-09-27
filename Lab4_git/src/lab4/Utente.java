@@ -49,9 +49,11 @@ public class Utente {
 		return "Utente [nome=" + nome + ", genero=" + genero + ", idade=" + idade + ", altura=" + altura + ", peso="
 				+ peso + "]";
 	}
+	double imc = IMC(18, 1.5);
 	
 	
-	public void IMC(int pes , float altura ) {
-		float imc = peso/(altura*altura);
+	public double IMC(int pes , double d ) {
+		double imc = peso/(d*d);
+		return imc;
 	}
 }
